@@ -4,44 +4,44 @@
 
 @layer base {
   :root {
-    --background: 36 33% 97%;
-    --foreground: 25 30% 15%;
+    --background: 50 60% 97%;
+    --foreground: 40 40% 12%;
 
     --card: 0 0% 100%;
-    --card-foreground: 25 30% 15%;
+    --card-foreground: 40 40% 12%;
 
     --popover: 0 0% 100%;
-    --popover-foreground: 25 30% 15%;
+    --popover-foreground: 40 40% 12%;
 
-    --primary: 25 85% 52%;
-    --primary-foreground: 0 0% 100%;
+    --primary: 43 96% 48%;
+    --primary-foreground: 40 40% 10%;
 
-    --secondary: 36 30% 92%;
-    --secondary-foreground: 25 30% 25%;
+    --secondary: 48 60% 92%;
+    --secondary-foreground: 40 40% 20%;
 
-    --muted: 36 20% 94%;
-    --muted-foreground: 25 15% 50%;
+    --muted: 48 40% 94%;
+    --muted-foreground: 40 20% 48%;
 
-    --accent: 196 60% 42%;
-    --accent-foreground: 0 0% 100%;
+    --accent: 38 90% 55%;
+    --accent-foreground: 40 40% 10%;
 
     --destructive: 0 84% 60%;
     --destructive-foreground: 0 0% 100%;
 
-    --border: 36 20% 88%;
-    --input: 36 20% 88%;
-    --ring: 25 85% 52%;
+    --border: 45 30% 86%;
+    --input: 45 30% 86%;
+    --ring: 43 96% 48%;
 
     --radius: 0.75rem;
 
     --sidebar-background: 0 0% 98%;
-    --sidebar-foreground: 25 30% 15%;
-    --sidebar-primary: 25 85% 52%;
-    --sidebar-primary-foreground: 0 0% 100%;
-    --sidebar-accent: 36 30% 92%;
-    --sidebar-accent-foreground: 25 30% 15%;
-    --sidebar-border: 36 20% 88%;
-    --sidebar-ring: 25 85% 52%;
+    --sidebar-foreground: 40 40% 12%;
+    --sidebar-primary: 43 96% 48%;
+    --sidebar-primary-foreground: 40 40% 10%;
+    --sidebar-accent: 48 60% 92%;
+    --sidebar-accent-foreground: 40 40% 12%;
+    --sidebar-border: 45 30% 86%;
+    --sidebar-ring: 43 96% 48%;
   }
 }
 
@@ -61,38 +61,39 @@
   }
 
   .hero-gradient {
-    background: linear-gradient(135deg, #5c3310 0%, #9a4f1a 50%, #c8763d 100%);
+    background: linear-gradient(135deg, #78540a 0%, #c98a0e 50%, #f5c842 100%);
   }
 
   .card-shadow {
-    box-shadow: 0 4px 24px rgba(120, 70, 20, 0.1);
+    box-shadow: 0 4px 24px rgba(180, 130, 10, 0.1);
     transition: all 0.3s ease;
   }
   .card-shadow:hover {
     transform: translateY(-4px);
-    box-shadow: 0 12px 40px rgba(120, 70, 20, 0.18);
+    box-shadow: 0 12px 40px rgba(180, 130, 10, 0.2);
   }
 
   .btn-primary {
-    background: linear-gradient(135deg, #e8721a, #c85d10);
-    color: #fff;
+    background: linear-gradient(135deg, #f5c110, #d4980a);
+    color: #3a2800;
+    font-weight: 700;
     transition: all 0.3s ease;
   }
   .btn-primary:hover {
-    background: linear-gradient(135deg, #d4650f, #b04d08);
+    background: linear-gradient(135deg, #e8b50e, #c08908);
     transform: translateY(-2px);
-    box-shadow: 0 8px 24px rgba(200, 93, 16, 0.35);
+    box-shadow: 0 8px 24px rgba(210, 155, 10, 0.4);
   }
 
   .btn-outline-warm {
-    border: 2px solid #e8721a;
-    color: #e8721a;
+    border: 2px solid #f5c110;
+    color: #3a2800;
     background: transparent;
     transition: all 0.3s ease;
   }
   .btn-outline-warm:hover {
-    background: #e8721a;
-    color: #fff;
+    background: #f5c110;
+    color: #3a2800;
     transform: translateY(-2px);
   }
 
@@ -147,7 +148,7 @@
     content: "✓";
     position: absolute;
     left: 0;
-    color: #e8721a;
+    color: #f5c110;
     font-weight: 700;
   }
 }
